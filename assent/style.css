@@ -1,0 +1,97 @@
+.body{
+    height: 100vh;
+    background-color: var(--color-fondo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.div-central{
+    width: 25rem;
+    height: 55rem;
+    margin-top: 2rem;
+    border-radius: 0.8rem;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen{
+    width: 100%;
+    height: 30%;
+}
+
+.imagen-imagen{
+    width: 100%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.div-texto{
+    width: 84%;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: var(--color-fondo-tarjeta);
+}
+
+.texto-menor{
+    font-family: var(--montserrat);
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: var(--color-letra);
+}
+
+.texto-producto{
+    font-size: 2.4rem;
+    font-family: var(--Fraunces);
+}
+
+.texto-parrafo{
+    font-family: var(--montserrat);
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: var(--color-parrafo);
+    width: 90%;
+}
+
+.div-precios{
+    display: flex;
+    align-items: center;
+}
+
+.texto-precio{
+    font-family: var(--Fraunces);
+    color: var(--color-button);
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.texto-precio-menor{
+    font-family: var(--montserrat);
+    color: var(--color-parrafo);
+    font-weight: lighter;
+    font-size: 1.3rem;
+    text-decoration: line-through;
+    margin-left: 1.5rem;
+}
+
+.button{
+    width: 85%;
+    padding: 1rem 3rem;
+    background-color: var(--color-button);
+    color: var(--color-fondo-tarjeta);
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-family: var(--montserrat);
+    align-items: center;
+}
+
+.carrito{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    scale: 1.5;
+}

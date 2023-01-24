@@ -1,0 +1,22 @@
+:root{
+
+/* primarios */
+
+--color-button: rgb(60, 128, 103);
+--color-fondo: rgb(242, 235, 227);
+ /* Neutral */
+
+--color-letra: rgb(28, 35, 43);
+--color-parrafo: rgb(108, 114, 137);
+--color-fondo-tarjeta: rgb(255, 255, 255);
+
+--Fraunces: 'Fraunces', serif;;
+--montserrat: 'Montserrat', sans-serif;
+
+
+
+}
+
+*{
+    Font-size: 14px;
+}
