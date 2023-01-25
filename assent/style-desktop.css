@@ -1,0 +1,142 @@
+@media screen and (min-width: 1200px) {
+    
+    .body{
+        height: 99vh;
+        background-color: var(--color-fondo);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin: 0 ;
+    }
+    
+    .div-central{
+        width: 62rem;
+        height: 40rem;
+        margin-top: 8rem;
+        border-radius: 0;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .imagen{
+        width: 50%;
+        height: 100%;
+    }
+    
+    .imagen-imagen{
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.8rem;
+        display: block;
+    }
+
+    .imagen-mobile{
+        display: none;
+     }
+    
+    .div-texto{
+        width: 50%;
+        height: 97.7%;
+        border-top-right-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0.5rem 2rem;
+        background-color: var(--color-fondo-tarjeta);
+    }
+    
+    .texto-menor{
+        font-family: var(--montserrat);
+        font-weight: lighter;
+        font-size: 1.5rem;
+        color: var(--color-letra);
+    }
+    
+    .texto-producto{
+        font-size: 2.4rem;
+        font-family: var(--Fraunces);
+    }
+    
+    .texto-parrafo{
+        font-family: var(--montserrat);
+        font-size: 1.3rem;
+        font-weight: lighter;
+        color: var(--color-parrafo);
+        width: 100%;
+    }
+    
+    .div-precios{
+        display: flex;
+        align-items: center;
+    }
+    
+    .texto-precio{
+        font-family: var(--Fraunces);
+        color: var(--color-button);
+        font-weight: bolder;
+        font-size: 3rem;
+    }
+    
+    .texto-precio-menor{
+        font-family: var(--montserrat);
+        color: var(--color-parrafo);
+        font-weight: lighter;
+        font-size: 1.3rem;
+        text-decoration: line-through;
+        margin-left: 1.5rem;
+    }
+    
+    .button{
+        width: 90%;
+        padding: 1rem 3rem;
+        background-color: var(--color-button);
+        color: var(--color-fondo-tarjeta);
+        border-radius: 1rem;
+        font-size: 1rem;
+        font-family: var(--montserrat);
+        align-items: center;
+        margin: 0 auto 2rem;
+
+    }
+    
+    .carrito{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        scale: 1.5;
+    }
+
+    .footer-principal{
+        display: inline;
+        margin-right: 2rem;
+        color: var(--color-parrafo);
+    }
+
+    .github{
+        display: inline;
+        margin-right: 2rem;
+    }
+    
+    .github-link{
+        color: var(--color-parrafo);
+        text-decoration: none;
+    }
+
+    
+    .linkedin-link{
+        color: var(--color-parrafo);
+        text-decoration: none;
+    }
+
+    .linkedin{
+        display: inline;
+        color: var(--color-parrafo);
+        text-decoration: none;
+        
+    }
+}
